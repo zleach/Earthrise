@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92D31F1E18F9EA1C008EFDC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92D31F1D18F9EA1C008EFDC2 /* Foundation.framework */; };
+		92D31F2018F9EA1C008EFDC2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92D31F1F18F9EA1C008EFDC2 /* CoreGraphics.framework */; };
+		92D31F2218F9EA1C008EFDC2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92D31F2118F9EA1C008EFDC2 /* UIKit.framework */; };
+		92D31F2818F9EA1C008EFDC2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 92D31F2618F9EA1C008EFDC2 /* InfoPlist.strings */; };
+		92D31F2A18F9EA1C008EFDC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D31F2918F9EA1C008EFDC2 /* main.m */; };
+		92D31F2E18F9EA1C008EFDC2 /* ERSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D31F2D18F9EA1C008EFDC2 /* ERSAppDelegate.m */; };
+		92D31F3018F9EA1C008EFDC2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92D31F2F18F9EA1C008EFDC2 /* Images.xcassets */; };
+		92D31F3718F9EA1C008EFDC2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92D31F3618F9EA1C008EFDC2 /* XCTest.framework */; };
+		92D31F3818F9EA1C008EFDC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92D31F1D18F9EA1C008EFDC2 /* Foundation.framework */; };
+		92D31F3918F9EA1C008EFDC2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92D31F2118F9EA1C008EFDC2 /* UIKit.framework */; };
+		92D31F4118F9EA1C008EFDC2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 92D31F3F18F9EA1C008EFDC2 /* InfoPlist.strings */; };
+		92D31F4318F9EA1C008EFDC2 /* EarthriseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D31F4218F9EA1C008EFDC2 /* EarthriseTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92D31F3A18F9EA1C008EFDC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92D31F1218F9EA1C008EFDC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92D31F1918F9EA1C008EFDC2;
+			remoteInfo = Earthrise;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		92D31F1A18F9EA1C008EFDC2 /* Earthrise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Earthrise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92D31F1D18F9EA1C008EFDC2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		92D31F1F18F9EA1C008EFDC2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		92D31F2118F9EA1C008EFDC2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		92D31F2518F9EA1C008EFDC2 /* Earthrise-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Earthrise-Info.plist"; sourceTree = "<group>"; };
+		92D31F2718F9EA1C008EFDC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		92D31F2918F9EA1C008EFDC2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		92D31F2B18F9EA1C008EFDC2 /* Earthrise-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Earthrise-Prefix.pch"; sourceTree = "<group>"; };
+		92D31F2C18F9EA1C008EFDC2 /* ERSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ERSAppDelegate.h; sourceTree = "<group>"; };
+		92D31F2D18F9EA1C008EFDC2 /* ERSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ERSAppDelegate.m; sourceTree = "<group>"; };
+		92D31F2F18F9EA1C008EFDC2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		92D31F3518F9EA1C008EFDC2 /* EarthriseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EarthriseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92D31F3618F9EA1C008EFDC2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		92D31F3E18F9EA1C008EFDC2 /* EarthriseTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EarthriseTests-Info.plist"; sourceTree = "<group>"; };
+		92D31F4018F9EA1C008EFDC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		92D31F4218F9EA1C008EFDC2 /* EarthriseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EarthriseTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92D31F1718F9EA1C008EFDC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92D31F2018F9EA1C008EFDC2 /* CoreGraphics.framework in Frameworks */,
+				92D31F2218F9EA1C008EFDC2 /* UIKit.framework in Frameworks */,
+				92D31F1E18F9EA1C008EFDC2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92D31F3218F9EA1C008EFDC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92D31F3718F9EA1C008EFDC2 /* XCTest.framework in Frameworks */,
+				92D31F3918F9EA1C008EFDC2 /* UIKit.framework in Frameworks */,
+				92D31F3818F9EA1C008EFDC2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92D31F1118F9EA1C008EFDC2 = {
+			isa = PBXGroup;
+			children = (
+				92D31F2318F9EA1C008EFDC2 /* Earthrise */,
+				92D31F3C18F9EA1C008EFDC2 /* EarthriseTests */,
+				92D31F1C18F9EA1C008EFDC2 /* Frameworks */,
+				92D31F1B18F9EA1C008EFDC2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92D31F1B18F9EA1C008EFDC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92D31F1A18F9EA1C008EFDC2 /* Earthrise.app */,
+				92D31F3518F9EA1C008EFDC2 /* EarthriseTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92D31F1C18F9EA1C008EFDC2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92D31F1D18F9EA1C008EFDC2 /* Foundation.framework */,
+				92D31F1F18F9EA1C008EFDC2 /* CoreGraphics.framework */,
+				92D31F2118F9EA1C008EFDC2 /* UIKit.framework */,
+				92D31F3618F9EA1C008EFDC2 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		92D31F2318F9EA1C008EFDC2 /* Earthrise */ = {
+			isa = PBXGroup;
+			children = (
+				92D31F2C18F9EA1C008EFDC2 /* ERSAppDelegate.h */,
+				92D31F2D18F9EA1C008EFDC2 /* ERSAppDelegate.m */,
+				92D31F2F18F9EA1C008EFDC2 /* Images.xcassets */,
+				92D31F2418F9EA1C008EFDC2 /* Supporting Files */,
+			);
+			path = Earthrise;
+			sourceTree = "<group>";
+		};
+		92D31F2418F9EA1C008EFDC2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				92D31F2518F9EA1C008EFDC2 /* Earthrise-Info.plist */,
+				92D31F2618F9EA1C008EFDC2 /* InfoPlist.strings */,
+				92D31F2918F9EA1C008EFDC2 /* main.m */,
+				92D31F2B18F9EA1C008EFDC2 /* Earthrise-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		92D31F3C18F9EA1C008EFDC2 /* EarthriseTests */ = {
+			isa = PBXGroup;
+			children = (
+				92D31F4218F9EA1C008EFDC2 /* EarthriseTests.m */,
+				92D31F3D18F9EA1C008EFDC2 /* Supporting Files */,
+			);
+			path = EarthriseTests;
+			sourceTree = "<group>";
+		};
+		92D31F3D18F9EA1C008EFDC2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				92D31F3E18F9EA1C008EFDC2 /* EarthriseTests-Info.plist */,
+				92D31F3F18F9EA1C008EFDC2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92D31F1918F9EA1C008EFDC2 /* Earthrise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92D31F4618F9EA1C008EFDC2 /* Build configuration list for PBXNativeTarget "Earthrise" */;
+			buildPhases = (
+				92D31F1618F9EA1C008EFDC2 /* Sources */,
+				92D31F1718F9EA1C008EFDC2 /* Frameworks */,
+				92D31F1818F9EA1C008EFDC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Earthrise;
+			productName = Earthrise;
+			productReference = 92D31F1A18F9EA1C008EFDC2 /* Earthrise.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92D31F3418F9EA1C008EFDC2 /* EarthriseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92D31F4918F9EA1C008EFDC2 /* Build configuration list for PBXNativeTarget "EarthriseTests" */;
+			buildPhases = (
+				92D31F3118F9EA1C008EFDC2 /* Sources */,
+				92D31F3218F9EA1C008EFDC2 /* Frameworks */,
+				92D31F3318F9EA1C008EFDC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92D31F3B18F9EA1C008EFDC2 /* PBXTargetDependency */,
+			);
+			name = EarthriseTests;
+			productName = EarthriseTests;
+			productReference = 92D31F3518F9EA1C008EFDC2 /* EarthriseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92D31F1218F9EA1C008EFDC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ERS;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Inkling;
+				TargetAttributes = {
+					92D31F3418F9EA1C008EFDC2 = {
+						TestTargetID = 92D31F1918F9EA1C008EFDC2;
+					};
+				};
+			};
+			buildConfigurationList = 92D31F1518F9EA1C008EFDC2 /* Build configuration list for PBXProject "Earthrise" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 92D31F1118F9EA1C008EFDC2;
+			productRefGroup = 92D31F1B18F9EA1C008EFDC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92D31F1918F9EA1C008EFDC2 /* Earthrise */,
+				92D31F3418F9EA1C008EFDC2 /* EarthriseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92D31F1818F9EA1C008EFDC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92D31F2818F9EA1C008EFDC2 /* InfoPlist.strings in Resources */,
+				92D31F3018F9EA1C008EFDC2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92D31F3318F9EA1C008EFDC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92D31F4118F9EA1C008EFDC2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92D31F1618F9EA1C008EFDC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92D31F2A18F9EA1C008EFDC2 /* main.m in Sources */,
+				92D31F2E18F9EA1C008EFDC2 /* ERSAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92D31F3118F9EA1C008EFDC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92D31F4318F9EA1C008EFDC2 /* EarthriseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92D31F3B18F9EA1C008EFDC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92D31F1918F9EA1C008EFDC2 /* Earthrise */;
+			targetProxy = 92D31F3A18F9EA1C008EFDC2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		92D31F2618F9EA1C008EFDC2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92D31F2718F9EA1C008EFDC2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		92D31F3F18F9EA1C008EFDC2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92D31F4018F9EA1C008EFDC2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92D31F4418F9EA1C008EFDC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		92D31F4518F9EA1C008EFDC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92D31F4718F9EA1C008EFDC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Earthrise/Earthrise-Prefix.pch";
+				INFOPLIST_FILE = "Earthrise/Earthrise-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		92D31F4818F9EA1C008EFDC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Earthrise/Earthrise-Prefix.pch";
+				INFOPLIST_FILE = "Earthrise/Earthrise-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		92D31F4A18F9EA1C008EFDC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Earthrise.app/Earthrise";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Earthrise/Earthrise-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "EarthriseTests/EarthriseTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		92D31F4B18F9EA1C008EFDC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Earthrise.app/Earthrise";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Earthrise/Earthrise-Prefix.pch";
+				INFOPLIST_FILE = "EarthriseTests/EarthriseTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92D31F1518F9EA1C008EFDC2 /* Build configuration list for PBXProject "Earthrise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92D31F4418F9EA1C008EFDC2 /* Debug */,
+				92D31F4518F9EA1C008EFDC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92D31F4618F9EA1C008EFDC2 /* Build configuration list for PBXNativeTarget "Earthrise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92D31F4718F9EA1C008EFDC2 /* Debug */,
+				92D31F4818F9EA1C008EFDC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		92D31F4918F9EA1C008EFDC2 /* Build configuration list for PBXNativeTarget "EarthriseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92D31F4A18F9EA1C008EFDC2 /* Debug */,
+				92D31F4B18F9EA1C008EFDC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92D31F1218F9EA1C008EFDC2 /* Project object */;
+}
