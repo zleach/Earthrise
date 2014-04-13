@@ -7,13 +7,17 @@
 //
 
 #import "ERSAppDelegate.h"
+#import "ERSReaderViewController.h"
 
 @implementation ERSAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
+
+    ERSReaderViewController *readerViewController = [[ERSReaderViewController alloc] initWithNibName:nil bundle:nil];
+    self.window.rootViewController = readerViewController;
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

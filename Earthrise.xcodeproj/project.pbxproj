@@ -19,6 +19,8 @@
 		92D31F3918F9EA1C008EFDC2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92D31F2118F9EA1C008EFDC2 /* UIKit.framework */; };
 		92D31F4118F9EA1C008EFDC2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 92D31F3F18F9EA1C008EFDC2 /* InfoPlist.strings */; };
 		92D31F4318F9EA1C008EFDC2 /* EarthriseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D31F4218F9EA1C008EFDC2 /* EarthriseTests.m */; };
+		92D31F5118F9EA7C008EFDC2 /* ERSReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D31F5018F9EA7C008EFDC2 /* ERSReaderViewController.m */; };
+		92D31F5418F9EA9A008EFDC2 /* ERSPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D31F5318F9EA9A008EFDC2 /* ERSPageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,10 @@
 		92D31F3E18F9EA1C008EFDC2 /* EarthriseTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EarthriseTests-Info.plist"; sourceTree = "<group>"; };
 		92D31F4018F9EA1C008EFDC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		92D31F4218F9EA1C008EFDC2 /* EarthriseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EarthriseTests.m; sourceTree = "<group>"; };
+		92D31F4F18F9EA7C008EFDC2 /* ERSReaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ERSReaderViewController.h; path = Classes/ERSReaderViewController.h; sourceTree = "<group>"; };
+		92D31F5018F9EA7C008EFDC2 /* ERSReaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ERSReaderViewController.m; path = Classes/ERSReaderViewController.m; sourceTree = "<group>"; };
+		92D31F5218F9EA9A008EFDC2 /* ERSPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ERSPageViewController.h; path = Classes/ERSPageViewController.h; sourceTree = "<group>"; };
+		92D31F5318F9EA9A008EFDC2 /* ERSPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ERSPageViewController.m; path = Classes/ERSPageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +115,10 @@
 			children = (
 				92D31F2C18F9EA1C008EFDC2 /* ERSAppDelegate.h */,
 				92D31F2D18F9EA1C008EFDC2 /* ERSAppDelegate.m */,
+				92D31F4F18F9EA7C008EFDC2 /* ERSReaderViewController.h */,
+				92D31F5018F9EA7C008EFDC2 /* ERSReaderViewController.m */,
+				92D31F5218F9EA9A008EFDC2 /* ERSPageViewController.h */,
+				92D31F5318F9EA9A008EFDC2 /* ERSPageViewController.m */,
 				92D31F2F18F9EA1C008EFDC2 /* Images.xcassets */,
 				92D31F2418F9EA1C008EFDC2 /* Supporting Files */,
 			);
@@ -240,7 +250,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92D31F5418F9EA9A008EFDC2 /* ERSPageViewController.m in Sources */,
 				92D31F2A18F9EA1C008EFDC2 /* main.m in Sources */,
+				92D31F5118F9EA7C008EFDC2 /* ERSReaderViewController.m in Sources */,
 				92D31F2E18F9EA1C008EFDC2 /* ERSAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
